@@ -1,0 +1,22 @@
+<templateSet group="Logger">
+  <template name="info" value="logger.info(&quot;$END$&quot;, this);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="logger.debug(&quot;$END$&quot;, this);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="warn" value="logger.warn(&quot;$END$&quot;, this, e);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="logger.error(&quot;$END$&quot;, this, e);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

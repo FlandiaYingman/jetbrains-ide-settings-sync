@@ -1,0 +1,39 @@
+<templateSet group="KLogger">
+  <template name="logger" value="private val logger = KotlinLogging.logger {}" description="KotlinLogging.logger {}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="logger.debug {&quot;$END$&quot;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="info" value="logger.info {&quot;$END$&quot;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="trace" value="loggertrace {&quot;$END$&quot;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="warn" value="logger.warn(e) {&quot;$END$&quot;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="logger.error(e) {&quot;$END$&quot;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clogger" value="companion object {&#10;    private val log = mu.KotlinLogging.logger {}&#10;}" description="KotlinLogging.logger {} in companion object" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>

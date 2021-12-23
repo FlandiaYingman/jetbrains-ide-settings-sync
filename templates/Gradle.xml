@@ -1,0 +1,17 @@
+<templateSet group="Gradle">
+  <template name="alimaven" value="maven { url 'https://maven.aliyun.com/repository/public' }&#10;maven { url 'https://maven.aliyun.com/repository/google' }&#10;maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="kalimaven" value="maven { url = uri(&quot;https://maven.aliyun.com/repository/public&quot;) }&#10;maven { url = uri(&quot;https://maven.aliyun.com/repository/google&quot;) }&#10;maven { url = uri(&quot;https://maven.aliyun.com/repository/gradle-plugin&quot;) }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="kalispring" value="maven { url = uri(&quot;https://maven.aliyun.com/repository/spring&quot;) }&#10;maven { url = uri(&quot;https://maven.aliyun.com/repository/spring-plugin&quot;) }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

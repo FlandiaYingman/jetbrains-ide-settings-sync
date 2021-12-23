@@ -1,0 +1,14 @@
+<templateSet group="Kotlin">
+  <template name="tostring" value="override fun toString(): String {&#10;    return if (this::class.isCompanion) {&#10;        this::class.java.declaringClass.simpleName&#10;    } else {&#10;        this::class.simpleName!!&#10;    }&#10;}" description="toString() for objects" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="soutvs" value="println(&quot;$SELECTION_COPY$ = $DOLLAR${$SELECTION$}&quot;)" description="Surround with println() value" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION_COPY" expression="escapeString(SELECTION)" defaultValue="" alwaysStopAt="false" />
+    <variable name="DOLLAR" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
