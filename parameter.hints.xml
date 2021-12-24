@@ -19,6 +19,8 @@
         <added pattern="top.anagke.auto_ark.adb.AndroidActivity(packageName,activityName)" />
         <added pattern="kotlin.text.Regex(pattern)" />
         <added pattern="top.anagke.auto_ark.adb.adbProc(adbPath,adbCommands,serial)" />
+        <added pattern="top.anagke.auto_android.Device.tap(x,y)" />
+        <added pattern="top.anagke.auto_android.adbProc(adbPath,adbCommands,serial)" />
       </blacklist>
     </blacklists>
   </component>
