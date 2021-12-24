@@ -1,4 +1,8 @@
 <code_scheme name="Default" version="173">
+  <GoCodeStyleSettings>
+    <option name="IMPORT_SORTING" value="GOIMPORTS" />
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+  </GoCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
