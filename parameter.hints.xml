@@ -21,6 +21,7 @@
         <added pattern="top.anagke.auto_ark.adb.adbProc(adbPath,adbCommands,serial)" />
         <added pattern="top.anagke.auto_android.Device.tap(x,y)" />
         <added pattern="top.anagke.auto_android.adbProc(adbPath,adbCommands,serial)" />
+        <added pattern="top.anagke.auto_pnc.factory.PncFactory.Room(x,y)" />
       </blacklist>
     </blacklists>
   </component>
