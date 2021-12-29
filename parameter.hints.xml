@@ -24,6 +24,7 @@
         <added pattern="top.anagke.auto_pnc.factory.PncFactory.Room(x,y)" />
         <added pattern="org.gradle.kotlin.dsl.testImplementation(dependencyNotation)" />
         <added pattern="top.anagke.auto_android.Device.tapd(x,y)" />
+        <added pattern="kotlin.text.replace(oldChar,newChar,ignoreCase)" />
       </blacklist>
     </blacklists>
   </component>
