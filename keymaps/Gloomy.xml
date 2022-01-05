@@ -39,9 +39,6 @@
     <keyboard-shortcut first-keystroke="shift up" />
     <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
-  <action id="EslintImportCodeStyle">
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
-  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -52,6 +49,9 @@
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="QuickImplementations" />
   <action id="ReflowKDoc">
     <keyboard-shortcut first-keystroke="ctrl alt quote" />
