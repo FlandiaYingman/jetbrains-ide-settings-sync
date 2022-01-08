@@ -4,6 +4,7 @@
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="test_file" type="AUTO_DETECTED" />
       <mapping pattern="bazaar" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="file" type="PLAIN_TEXT" />
